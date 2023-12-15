@@ -24,7 +24,7 @@ nav ul {
     padding-left: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 nav ul li {
@@ -39,6 +39,21 @@ nav ul li a {
     text-decoration: none;
     color: #ce49e0;
     padding: 8px 0;
+    border-top-style: solid;
+    border-top-color: #a76ce6 ;
+    border-right-style: solid;
+    border-right-width: 0.25em;
+    border: width style colour;
+    
+}
+
+
+
+
+
+
+nav li:first-child{
+border-left:none;
 }
 
 .container {
