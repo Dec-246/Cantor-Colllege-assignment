@@ -1,0 +1,121 @@
+/* @media (max-width: 500px){
+    label.logo{
+        font-size: 50px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+    }
+} */
+
+header{
+    flex-direction: row;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+
+section{
+    flex-direction: row;
+    gap:50px;
+    margin: auto;
+    max-width: 580px;
+}
+section>div{
+    flex: 1 1 50%;
+}
+.introductionForHomePage{
+    border: 10px solid lightblue;  
+    flex-direction: row;
+    gap:50px;
+    margin: auto;
+    max-width: 580px;
+}
+.middleParagraph{
+    border: 10px solid lightblue;    
+    flex-direction: row;
+    gap:50px;
+    margin: auto;
+    max-width: 580px;
+}
+.lastParagraph{
+    border: 10px solid lightblue;    
+    flex-direction: row;
+    gap:50px;
+    margin: auto;
+    max-width: 580px;   
+}
+.coursePageIntro{
+    max-width: 580px;
+    margin:auto;
+}
+.dropDownBox{
+    max-width: 580px;
+    margin:auto; 
+}
+.introductionToFacilities{
+    max-width: 580px;
+    margin:auto; 
+}
+.facilitiesDescription{
+    max-width: 580px;
+    margin:auto; 
+}
+.academicInformation{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.administrativeSupport{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.studentServices{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.universityServices{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.lifeAtTheUniversity{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.communications{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;
+}
+.firstBusinessParagraph{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 580px;
+    margin:auto;
+    border: 10px solid black;  
+}

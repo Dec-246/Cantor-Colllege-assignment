@@ -1,0 +1,31 @@
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+.header{
+    background-color: rgb(87, 208, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    content-visibility: show;
+}
+.header2{
+    content-visibility: hidden;
+}
+nav>ul{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+nav>ul>li{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+section{
+    flex-direction: row;
+    gap:50px;
+}
+section>div{
+    flex: 1 1 50%;
+}
